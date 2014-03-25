@@ -1,0 +1,6 @@
+fixtures:
+  repositories:
+    stdlib: "git://github.com/puppetlabs/puppetlabs-stdlib"
+    stunnel: "git://github.com/stepanstipl/puppet-stunnel"
+  symlinks:
+    entropy: "#{source_dir}"
