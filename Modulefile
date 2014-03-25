@@ -9,5 +9,5 @@ entropy based on ekeyd server and ekeyd-egd client, supporting
 encryption with stunnel.'
 project_page 'https://github.com/stepanstipl/puppet-entropy'
 
-## Add dependencies, if any:
-# dependency 'username/name', '>= 1.2.0'
+dependency 'puppetlabs/stdlib', '>= 3.2.0'
+dependency 'stepanstipl/stunnel', '>= 0.1.0'
